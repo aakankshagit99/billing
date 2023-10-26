@@ -152,7 +152,7 @@ const billingPage= ({route, navigation})=>{
   
 
   // Calculate the total number of selected items
-  // const totalItems = billItems.length;
+  
   const totalItems = billItems.reduce((acc, item) => acc + item.quantity, 0);
 
 
@@ -326,7 +326,7 @@ const styles = StyleSheet.create({
     borderRadius: 20,
     backgroundColor: 'yellow',
     marginBottom: 10,
-    backgroundColor: '#fff',
+    backgroundColor: '#F5EEF8',
   },
   totalSection: {
     alignItems: 'center',
@@ -348,7 +348,7 @@ const styles = StyleSheet.create({
     margin:10,
     padding:10,
     width:350,
-    backgroundColor:"#D6EAF8",
+    backgroundColor:"#ecd8e7",
     borderRadius:5,
     flex:1,
     flexDirection: 'row',

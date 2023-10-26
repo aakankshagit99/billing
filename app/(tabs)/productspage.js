@@ -129,7 +129,7 @@ const styles = StyleSheet.create({
     margin:10,
     padding:10,
     width:350,
-    backgroundColor:"#D6EAF8",
+    backgroundColor:"#D6EAF8", //#ecd8e7
     borderRadius:5,
     flex:1,
     flexDirection: 'row'
